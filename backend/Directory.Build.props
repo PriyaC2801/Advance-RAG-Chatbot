@@ -1,0 +1,21 @@
+<Project>
+
+  <!-- Shared by every project in the solution (Core, the three pipelines, the API). -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- PDFtoImage renders on Windows/Linux/macOS (all we target); the analyzer just cannot see that. -->
+    <NoWarn>$(NoWarn);CA1416</NoWarn>
+  </PropertyGroup>
+
+  <!-- Class libraries do not get the web SDK's implicit usings, so add the ones every project here needs. -->
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.Logging" />
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+    <Using Include="Microsoft.Extensions.Configuration" />
+    <Using Include="Microsoft.Extensions.Options" />
+    <Using Include="Microsoft.AspNetCore.Hosting" />
+  </ItemGroup>
+
+</Project>

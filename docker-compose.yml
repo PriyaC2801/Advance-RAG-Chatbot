@@ -1,0 +1,21 @@
+# One PostgreSQL 17 + pgvector database for all three documents (each pipeline owns its own tables).
+# Host port 5450 so it cannot clash with a local PostgreSQL (5432) or the three earlier single-document projects
+# (5433 / 5434 / 5444). Local development only: the credentials below are not for any shared or production database.
+name: advanced-rag
+
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    container_name: advancedrag-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: rag
+      POSTGRES_PASSWORD: rag_dev_password
+      POSTGRES_DB: advancedrag
+    ports:
+      - "5450:5432"
+    volumes:
+      - advancedrag-data:/var/lib/postgresql/data
+
+volumes:
+  advancedrag-data:

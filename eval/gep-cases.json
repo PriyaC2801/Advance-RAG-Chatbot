@@ -1,0 +1,94 @@
+{
+  "description": "Evaluation cases for the GEP report assistant. Expectations describe WHERE evidence must come from and HOW the answer must behave - never the answer text itself.",
+  "cases": [
+    {
+      "id": "1-south-asia",
+      "specTest": 1,
+      "question": "What is the growth outlook for South Asia?",
+      "expect": {
+        "evidenceStatus": [ "Sufficient", "Limited" ],
+        "citations": true,
+        "regions": [ "South Asia" ],
+        "groundedNumbers": true
+      }
+    },
+    {
+      "id": "2-chapter-3-sovereign-debt",
+      "specTest": 2,
+      "question": "What does Chapter 3 say about sovereign debt in developing economies?",
+      "expect": {
+        "evidenceStatus": [ "Sufficient", "Limited" ],
+        "citations": true,
+        "chapter": 3,
+        "groundedNumbers": true
+      }
+    },
+    {
+      "id": "3-executive-summary-risks",
+      "specTest": 3,
+      "question": "According to the Executive Summary, what are the main risks to the global outlook?",
+      "expect": {
+        "evidenceStatus": [ "Sufficient", "Limited" ],
+        "citations": true,
+        "contentType": "ExecutiveSummary",
+        "groundedNumbers": true
+      }
+    },
+    {
+      "id": "4-compare-south-asia-ssa",
+      "specTest": 4,
+      "question": "Compare the growth outlook for South Asia and Sub-Saharan Africa.",
+      "expect": {
+        "evidenceStatus": [ "Sufficient" ],
+        "citations": true,
+        "regions": [ "South Asia", "Sub-Saharan Africa" ],
+        "separateRegions": true,
+        "groundedNumbers": true
+      }
+    },
+    {
+      "id": "5-chapter-4-fiscal-commodity",
+      "specTest": 5,
+      "question": "What does Chapter 4 say about fiscal policy and commodity price swings?",
+      "expect": {
+        "evidenceStatus": [ "Sufficient", "Limited" ],
+        "citations": true,
+        "chapter": 4,
+        "groundedNumbers": true
+      }
+    },
+    {
+      "id": "6-atlantis-insufficient",
+      "specTest": 6,
+      "question": "What is the growth outlook for Atlantis in 2045 according to the report?",
+      "expect": {
+        "evidenceStatus": [ "Insufficient" ],
+        "citations": false,
+        "insufficientReply": true
+      }
+    },
+    {
+      "id": "extra-india-bangladesh-fiscal-years",
+      "note": "Regression: table notes say India and Bangladesh report fiscal years; the answer must not present them as calendar-year figures. Mentioning that some tables use calendar-year column LABELS is correct and allowed.",
+      "question": "What are the growth forecasts for India and Bangladesh?",
+      "expect": {
+        "evidenceStatus": [ "Sufficient", "Limited" ],
+        "citations": true,
+        "regions": [ "South Asia" ],
+        "groundedNumbers": true,
+        "forbiddenPhrases": [ "calendar-year basis", "calendar year basis", "calendar-year terms", "calendar year terms", "calendar-year figures", "calendar year figures" ]
+      }
+    },
+    {
+      "id": "extra-brazil-mexico-appendix-region",
+      "note": "Regression: wrapped region labels in the statistical appendix once tagged Latin American rows as Europe and Central Asia.",
+      "question": "What are the growth forecasts for Brazil and Mexico?",
+      "expect": {
+        "evidenceStatus": [ "Sufficient", "Limited" ],
+        "citations": true,
+        "regions": [ "Latin America and the Caribbean" ],
+        "groundedNumbers": true
+      }
+    }
+  ]
+}

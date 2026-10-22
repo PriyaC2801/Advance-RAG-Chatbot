@@ -1,0 +1,6 @@
+{
+  "Page": 10,
+  "PngHash": "869F24708211CEAF",
+  "Model": "gemini-3.1-flash-lite",
+  "Description": "This report details the carbon footprint for iMac configurations. Greenhouse gas emissions are calculated using life cycle assessment (LCA) methodology per ISO 14040, 14044, and 14067 standards.\n\n**Table 1: Greenhouse gas emissions for iMac (two ports) 256GB**\n*   Total product footprint: 346 kg CO2e\n*   Apple emissions from utility-purchased electricity (scope 2): 0 kg CO2e\n*   Life cycle product emissions (scope 3): 346 kg CO2e\n*   Production: 50%\n*   Transportation: 5%\n*   Product use: 45%\n*   End-of-life processing: \u003C1%\n*   GHG reductions achieved[7]: \u003E20%\n\nA note indicates that percentages may not total 100 due to rounding.\n\n**Table 2: Configuration comparison**\n*   Configuration: iMac (four ports) 512GB\n*   Total product footprint: 391 kg CO2e\n\nThe report notes that Apple models different configurations to show the potential range of carbon emissions. Data is accurate as of launch, with inherent uncertainty addressed through Apple-specific parameters and industry-average data. Further methodology information is available at apple.com/environment/answers."
+}

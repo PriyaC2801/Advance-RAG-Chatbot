@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AdvancedRag.Api/AdvancedRag.Api.csproj" />
+  <Project Path="AdvancedRag.Core/AdvancedRag.Core.csproj" />
+  <Project Path="AdvancedRag.Pipelines.Gep/AdvancedRag.Pipelines.Gep.csproj" />
+  <Project Path="AdvancedRag.Pipelines.Gpo/AdvancedRag.Pipelines.Gpo.csproj" />
+  <Project Path="AdvancedRag.Pipelines.Imac/AdvancedRag.Pipelines.Imac.csproj" />
+</Solution>

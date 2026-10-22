@@ -1,0 +1,15 @@
+[
+  { "id": "Q1",  "type": "footnote", "question": "How much less energy does iMac use compared to the ENERGY STAR requirement?", "expectedPages": [7],  "mustContain": ["58"] },
+  { "id": "Q2",  "type": "table",    "question": "What is the total carbon footprint of the iMac, and how much of that comes from product use versus manufacturing?", "expectedPages": [2, 10], "mustContain": ["346", "50%", "45%"] },
+  { "id": "Q3",  "type": "callout",  "question": "What material is the iMac stand made from, and what percentage of it is recycled?", "expectedPages": [1, 2, 4], "mustContain": ["aluminum", "100"] },
+  { "id": "Q4",  "type": "chart",    "question": "What was the baseline emissions figure, and how many kilograms did the reductions remove?", "expectedPages": [2], "mustContain": ["445", "99"] },
+  { "id": "Q5",  "type": "footnote", "question": "What share of manufacturing electricity comes from renewable/low-carbon sources, and how does the footnote say it is measured?", "expectedPages": [1, 5], "mustContain": ["20", "prior fiscal year"] },
+  { "id": "Q6",  "type": "table",    "question": "What is the iMac's power consumption in Idle—Display On mode at 230V?", "expectedPages": [12], "mustContain": ["20.9"] },
+  { "id": "Q7",  "type": "table",    "question": "What is the power adapter efficiency at 115V?", "expectedPages": [12], "mustContain": ["91.5"] },
+  { "id": "Q8",  "type": "table",    "question": "What is the carbon footprint of the iMac (four ports) 512GB?", "expectedPages": [10], "mustContain": ["391"] },
+  { "id": "Q9",  "type": "callout",  "question": "What percentage recycled content is in the iMac's fiber packaging?", "expectedPages": [6], "mustContain": ["76"] },
+  { "id": "Q10", "type": "callout",  "question": "How much of the device's total rare earth elements are recycled?", "expectedPages": [4], "mustContain": ["99"] },
+  { "id": "Q11", "type": "footnote", "question": "Which iMac model does the recycled copper in the thermal module apply to?", "expectedPages": [4, 11], "mustContain": ["four ports"] },
+  { "id": "Q12", "type": "callout",  "question": "In how many components is at least 50% recycled plastic used?", "expectedPages": [4], "mustContain": ["13"] },
+  { "id": "Q13", "type": "refusal",  "question": "What is the iMac's screen resolution?", "expectedPages": [], "mustContain": [] }
+]

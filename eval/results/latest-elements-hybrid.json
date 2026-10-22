@@ -1,0 +1,206 @@
+{
+  "Mode": "elements-hybrid",
+  "RunAt": "2026-10-21T09:21:58.6332816Z",
+  "Hit1": 0.75,
+  "Hit3": 0.9166666666666666,
+  "Hit5": 0.9166666666666666,
+  "Mrr": 0.8333333333333334,
+  "AnswerPassRate": 1,
+  "Questions": [
+    {
+      "Id": "Q1",
+      "Type": "footnote",
+      "Question": "How much less energy does iMac use compared to the ENERGY STAR requirement?",
+      "FirstRelevantRank": 1,
+      "AnswerPass": true,
+      "Answer": "The iMac uses 58 percent less energy than the requirement for ENERGY STAR [1, 2]. (This value is based on the ENERGY STAR Program Requirements for Computers, including the max energy allowance for iMac [1, 2].)",
+      "RetrievedPages": [
+        7,
+        7,
+        7,
+        1,
+        1
+      ]
+    },
+    {
+      "Id": "Q2",
+      "Type": "table",
+      "Question": "What is the total carbon footprint of the iMac, and how much of that comes from product use versus manufacturing?",
+      "FirstRelevantRank": 1,
+      "AnswerPass": true,
+      "Answer": "To answer your question about \u0022manufacturing,\u0022 I used the term \u0022Production\u0022 from the document [1].\n\nThe total product footprint for the iMac (two ports) 256GB is 346 kg CO2e [1, 4] (calculated based on the 512GB storage configuration [4]). \n\nFrom this total life cycle footprint:\n- **Production** accounts for 50% [1].\n- **Product use** accounts for 45% [1].",
+      "RetrievedPages": [
+        10,
+        2,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "Id": "Q3",
+      "Type": "callout",
+      "Question": "What material is the iMac stand made from, and what percentage of it is recycled?",
+      "FirstRelevantRank": 1,
+      "AnswerPass": true,
+      "Answer": "Based on the document, the iMac uses 100 percent recycled aluminum in the stand [1, 3].",
+      "RetrievedPages": [
+        2,
+        4,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "Id": "Q4",
+      "Type": "chart",
+      "Question": "What was the baseline emissions figure, and how many kilograms did the reductions remove?",
+      "FirstRelevantRank": null,
+      "AnswerPass": true,
+      "Answer": "The baseline emissions figure was 445 kg [1]. The emissions reductions removed \u201399 kg [3]. \n\n*(Note: Carbon reductions are calculated against a product-specific business-as-usual scenario as modeled by Apple, which assumes no use of clean electricity for manufacturing or product use beyond the latest available regional grid, Apple\u0027s 2015 carbon intensity for key materials, and an average mix of transportation modes from fiscal years 2017 to 2019 [1].)*",
+      "RetrievedPages": [
+        2,
+        10,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "Id": "Q5",
+      "Type": "footnote",
+      "Question": "What share of manufacturing electricity comes from renewable/low-carbon sources, and how does the footnote say it is measured?",
+      "FirstRelevantRank": 2,
+      "AnswerPass": true,
+      "Answer": "Based on the document, over 20% (or over 20 percent) of manufacturing electricity is sourced from renewable energy [3] / low-carbon energy projects [2]. \n\nRegarding how it is measured, the document uses the term \u0022manufacturing\u0022 [1, 2, 3]. According to the footnotes ([Note 2]), the percentage of electricity-related emissions in our manufacturing that is sourced from low-carbon electricity is estimated by attributing to the carbon model low-carbon energy procured by suppliers in the prior fiscal year, based on the supplier manufacturing allocations at the time of product launch [2, 3]. This calculation assesses the suppliers for iMac (two ports) 256GB, and includes only low-carbon electricity that Apple or its suppliers have procured as part of Apple\u2019s Supplier Clean Energy Program [2, 3].",
+      "RetrievedPages": [
+        2,
+        5,
+        1,
+        9,
+        2
+      ]
+    },
+    {
+      "Id": "Q6",
+      "Type": "table",
+      "Question": "What is the iMac\u0027s power consumption in Idle\u2014Display On mode at 230V?",
+      "FirstRelevantRank": 1,
+      "AnswerPass": true,
+      "Answer": "The iMac\u0027s power consumption in Idle\u2014Display On mode (using the term \u0022Idle\u2014Display On\u0022 from the document) at 230V is 20.9W [1].",
+      "RetrievedPages": [
+        12,
+        7,
+        7,
+        7,
+        1
+      ]
+    },
+    {
+      "Id": "Q7",
+      "Type": "table",
+      "Question": "What is the power adapter efficiency at 115V?",
+      "FirstRelevantRank": 1,
+      "AnswerPass": true,
+      "Answer": "The power adapter efficiency at 115V is 91.5% [1].",
+      "RetrievedPages": [
+        12,
+        7,
+        7,
+        7,
+        1
+      ]
+    },
+    {
+      "Id": "Q8",
+      "Type": "table",
+      "Question": "What is the carbon footprint of the iMac (four ports) 512GB?",
+      "FirstRelevantRank": 1,
+      "AnswerPass": true,
+      "Answer": "The total product footprint for the iMac (four ports) 512GB is 391 kg CO2e [1].",
+      "RetrievedPages": [
+        10,
+        10,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "Id": "Q9",
+      "Type": "callout",
+      "Question": "What percentage recycled content is in the iMac\u0027s fiber packaging?",
+      "FirstRelevantRank": 2,
+      "AnswerPass": true,
+      "Answer": "Based on the document, using the term \u0022packaging\u0022 as found in the text, our packaging for iMac contains 76 percent recycled content [2].",
+      "RetrievedPages": [
+        6,
+        6,
+        4,
+        2,
+        6
+      ]
+    },
+    {
+      "Id": "Q10",
+      "Type": "callout",
+      "Question": "How much of the device\u0027s total rare earth elements are recycled?",
+      "FirstRelevantRank": 1,
+      "AnswerPass": true,
+      "Answer": "Based on the document, 100 percent recycled rare earth elements are used in all magnets, representing **99 percent** of the total rare earth elements in the device [1].",
+      "RetrievedPages": [
+        4,
+        1,
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "Id": "Q11",
+      "Type": "footnote",
+      "Question": "Which iMac model does the recycled copper in the thermal module apply to?",
+      "FirstRelevantRank": 1,
+      "AnswerPass": true,
+      "Answer": "Based on the document, the recycled copper in the thermal module applies to the iMac (four ports) only [1].",
+      "RetrievedPages": [
+        4,
+        2,
+        4,
+        1,
+        4
+      ]
+    },
+    {
+      "Id": "Q12",
+      "Type": "callout",
+      "Question": "In how many components is at least 50% recycled plastic used?",
+      "FirstRelevantRank": 1,
+      "AnswerPass": true,
+      "Answer": "Based on the document, using the term \u0022components\u0022 as stated in the text [1], at least 50% recycled plastic is used in 13 components [1].",
+      "RetrievedPages": [
+        4,
+        4,
+        9,
+        1,
+        2
+      ]
+    },
+    {
+      "Id": "Q13",
+      "Type": "refusal",
+      "Question": "What is the iMac\u0027s screen resolution?",
+      "FirstRelevantRank": null,
+      "AnswerPass": true,
+      "Answer": "I could not find this in the document.",
+      "RetrievedPages": [
+        7,
+        1,
+        1,
+        7,
+        4
+      ]
+    }
+  ]
+}

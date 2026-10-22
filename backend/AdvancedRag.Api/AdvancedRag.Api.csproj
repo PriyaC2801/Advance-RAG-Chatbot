@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <!-- One secret store for the whole app: dotnet user-secrets set "Gemini:ApiKey" "..." -->
+    <UserSecretsId>d409a765-e530-4958-85c2-213c9488540e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdvancedRag.Core\AdvancedRag.Core.csproj" />
+    <ProjectReference Include="..\AdvancedRag.Pipelines.Gep\AdvancedRag.Pipelines.Gep.csproj" />
+    <ProjectReference Include="..\AdvancedRag.Pipelines.Gpo\AdvancedRag.Pipelines.Gpo.csproj" />
+    <ProjectReference Include="..\AdvancedRag.Pipelines.Imac\AdvancedRag.Pipelines.Imac.csproj" />
+  </ItemGroup>
+
+</Project>
+
+

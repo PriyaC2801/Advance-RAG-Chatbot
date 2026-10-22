@@ -1,0 +1,176 @@
+{
+  "documentId": "gep",
+  "mode": null,
+  "ranUtc": "2026-10-22T10:49:26.1461552+00:00",
+  "passed": 8,
+  "total": 8,
+  "cases": [
+    {
+      "id": "1-south-asia",
+      "question": "What is the growth outlook for South Asia?",
+      "passed": true,
+      "answer": "Real GDP growth in South Asia is estimated to be 7.0 percent in 2025e and is projected to be 6.3 percent in 2026f and 6.9 percent in 2027f [S1].",
+      "failures": [],
+      "metrics": {
+        "specTest": "1",
+        "attempt": "1",
+        "evidenceStatus": "Sufficient",
+        "checks": "5/5 passed",
+        "checkDetails": "PASS Evidence status: got Sufficient, allowed Sufficient / Limited. 5 chunks passed the similarity threshold of 0.70 (best 0.811).\nPASS Has citations: 1 citation marker(s) in the answer, 1 cited source(s)\nPASS No sources from other regions: every region-specific source matches the question\nPASS Every asked region is cited: cited: South Asia\nPASS Numbers appear in cited text: all 5 figure(s) found in the cited sources",
+        "citedSources": "S1: Chapter 2 \u203A South Asia \u203A TABLE 2.9 South Asia forecast summary [Table, South Asia] p. 76",
+        "totalMs": "2049",
+        "retrievalMs": "641",
+        "generationMs": "1408",
+        "promptTokens": "5837",
+        "outputTokens": "91"
+      }
+    },
+    {
+      "id": "2-chapter-3-sovereign-debt",
+      "question": "What does Chapter 3 say about sovereign debt in developing economies?",
+      "passed": true,
+      "answer": "Chapter 3 explores how rising government debt in emerging market and developing economies (EMDEs) leads to higher interest rates, higher debt-service payments, and an increased likelihood of debt distress [S1]. Aggregate government debt in EMDEs increased from less than 40 percent of GDP in 2010 to over 70 percent, and debt-service costs rose from 6 percent of government revenues in 2010 to an estimated 11 percent in 2025 [S2]. The chapter finds a non-linear, positive association between debt levels and both dollar-denominated sovereign bond spreads and domestic-currency government bond yields [S1][S3]. Furthermore, mounting debt-service payments pose four critical challenges: the diversion of government resources from priority uses, additional borrowing to finance high obligations, increased economy-wide cost of capital that limits investment, and the potential to trigger debt distress, default, and severe economic disruption [S2].",
+      "failures": [],
+      "metrics": {
+        "specTest": "2",
+        "attempt": "1",
+        "evidenceStatus": "Sufficient",
+        "checks": "4/4 passed",
+        "checkDetails": "PASS Evidence status: got Sufficient, allowed Sufficient / Limited. 5 chunks passed the similarity threshold of 0.70 (best 0.782).\nPASS Has citations: 5 citation marker(s) in the answer, 3 cited source(s)\nPASS Sources from Chapter 3 only: all 3 cited source(s) are in Chapter 3\nPASS Numbers appear in cited text: all 4 figure(s) found in the cited sources",
+        "citedSources": "S1: Chapter 3 \u203A A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs [Narrative] p. 87\nS2: Chapter 3 \u203A Introduction [Narrative] p. 87\nS3: Chapter 3 \u203A Introduction [Narrative] p. 89",
+        "totalMs": "2307",
+        "retrievalMs": "573",
+        "generationMs": "1733",
+        "promptTokens": "2667",
+        "outputTokens": "248"
+      }
+    },
+    {
+      "id": "3-executive-summary-risks",
+      "question": "According to the Executive Summary, what are the main risks to the global outlook?",
+      "passed": true,
+      "answer": "The main risks to the global outlook include a renewed escalation of hostilities, more prolonged disruptions to commodity flows that could raise commodity prices, intensify inflationary pressures and food insecurity, trigger financial stress, and lower growth [S1][S2]. Persistent trade policy uncertainty, geopolitical strains, and weather-related shocks also pose material risks [S1].",
+      "failures": [],
+      "metrics": {
+        "specTest": "3",
+        "attempt": "1",
+        "evidenceStatus": "Sufficient",
+        "checks": "4/4 passed",
+        "checkDetails": "PASS Evidence status: got Sufficient, allowed Sufficient / Limited. 5 chunks passed the similarity threshold of 0.70 (best 0.806).\nPASS Has citations: 3 citation marker(s) in the answer, 2 cited source(s)\nPASS Sources are ExecutiveSummary only: all 2 cited source(s) are ExecutiveSummary\nPASS Numbers appear in cited text: all 0 figure(s) found in the cited sources",
+        "citedSources": "S1: Executive Summary \u203A Executive Summary [ExecutiveSummary] p. xvii\nS2: Executive Summary \u203A Executive Summary [ExecutiveSummary] p. xvii",
+        "totalMs": "1985",
+        "retrievalMs": "589",
+        "generationMs": "1396",
+        "promptTokens": "2485",
+        "outputTokens": "109"
+      }
+    },
+    {
+      "id": "4-compare-south-asia-ssa",
+      "question": "Compare the growth outlook for South Asia and Sub-Saharan Africa.",
+      "passed": true,
+      "answer": "**South Asia:** Real GDP growth in South Asia is projected to be 6.3 percent in 2026 and 6.9 percent in 2027 [S4].\n\n**Sub-Saharan Africa:** Real per capita GDP growth in Sub-Saharan Africa is projected to remain at 1.6 percent in 2026, before firming to an average of 2 percent per year in 2027\u201328 [S3].\n\nSouth Asia\u0027s total real GDP growth is projected to outpace Sub-Saharan Africa\u0027s per capita growth.",
+      "failures": [],
+      "metrics": {
+        "specTest": "4",
+        "attempt": "1",
+        "evidenceStatus": "Sufficient",
+        "checks": "6/6 passed",
+        "checkDetails": "PASS Evidence status: got Sufficient, allowed Sufficient. 6 chunks passed the similarity threshold of 0.70 (best 0.785).\nPASS Has citations: 2 citation marker(s) in the answer, 2 cited source(s)\nPASS No sources from other regions: every region-specific source matches the question\nPASS Every asked region is cited: cited: South Asia, Sub-Saharan Africa\nPASS Regions answered separately: one part per region; each cites only its own region\u0027s sources (0 comparison sentence(s) cite both)\nPASS Numbers appear in cited text: all 6 figure(s) found in the cited sources",
+        "citedSources": "S4: Chapter 2 \u203A South Asia \u203A TABLE 2.9 South Asia forecast summary [Table, South Asia] p. 76\nS3: Chapter 2 \u203A Sub-Saharan Africa \u203A Outlook [RegionalOutlook, Sub-Saharan Africa] p. 78",
+        "totalMs": "2317",
+        "retrievalMs": "544",
+        "generationMs": "1772",
+        "promptTokens": "6676",
+        "outputTokens": "169"
+      }
+    },
+    {
+      "id": "5-chapter-4-fiscal-commodity",
+      "question": "What does Chapter 4 say about fiscal policy and commodity price swings?",
+      "passed": true,
+      "answer": "Chapter 4 examines how fiscal policy and debt dynamics have evolved in commodity-exporting emerging market and developing economies (EMDEs) since 2000, noting that their fiscal positions have generally been weaker than those in other EMDEs due to lower and more volatile revenues, commodity price swings, and limited buffer accumulation [S1][S5]. A 1 percent increase in commodity prices raises both revenues and primary spending in commodity exporters by about 0.4 percent after five years, indicating that revenue windfalls are gradually spent rather than saved [S1]. The chapter analyzes fiscal dynamics across different commodity exporters, finding that primary balances in energy and metal exporters strengthen during booms and worsen in slumps, whereas agricultural exporters increase spending in booms, which offsets revenue gains and leads to more lasting debt accumulation [S1]. It also assesses how sovereign wealth funds (SWFs) and fiscal rules help smooth spending in some countries but offer limited protection after commodity shocks [S1][S3], and it outlines policy options centered on credible fiscal rules, well-governed SWFs, independent fiscal councils, strengthened debt management, revenue diversification, and robust institutions [S3][S4].",
+      "failures": [],
+      "metrics": {
+        "specTest": "5",
+        "attempt": "1",
+        "evidenceStatus": "Sufficient",
+        "checks": "4/4 passed",
+        "checkDetails": "PASS Evidence status: got Sufficient, allowed Sufficient / Limited. 5 chunks passed the similarity threshold of 0.70 (best 0.838).\nPASS Has citations: 8 citation marker(s) in the answer, 4 cited source(s)\nPASS Sources from Chapter 4 only: all 4 cited source(s) are in Chapter 4\nPASS Numbers appear in cited text: all 2 figure(s) found in the cited sources",
+        "citedSources": "S1: Chapter 4 \u203A Navigating Volatility: Fiscal Policy and Commodity Price Swings [Narrative] p. 123\nS5: Chapter 4 \u203A Introduction [Narrative] p. 125\nS3: Chapter 4 \u203A Navigating Volatility: Fiscal Policy and Commodity Price Swings [Narrative] p. 123\nS4: Chapter 4 \u203A Introduction [Narrative] p. 126",
+        "totalMs": "28791",
+        "retrievalMs": "486",
+        "generationMs": "28304",
+        "promptTokens": "2646",
+        "outputTokens": "293"
+      }
+    },
+    {
+      "id": "6-atlantis-insufficient",
+      "question": "What is the growth outlook for Atlantis in 2045 according to the report?",
+      "passed": true,
+      "answer": "I couldn\u0027t find sufficient evidence in this report to answer this question.",
+      "failures": [],
+      "metrics": {
+        "specTest": "6",
+        "attempt": "1",
+        "evidenceStatus": "Insufficient",
+        "checks": "3/3 passed",
+        "checkDetails": "PASS Evidence status: got Insufficient, allowed Insufficient. 3 chunks passed the similarity threshold of 0.70 (best 0.664). The model then reported that the excerpts do not support an answer.\nPASS No citations: 0 cited source(s)\nPASS Insufficient-evidence reply: the fixed reply was returned",
+        "citedSources": "",
+        "totalMs": "1988",
+        "retrievalMs": "636",
+        "generationMs": "1351",
+        "promptTokens": "2554",
+        "outputTokens": "42"
+      }
+    },
+    {
+      "id": "extra-india-bangladesh-fiscal-years",
+      "question": "What are the growth forecasts for India and Bangladesh?",
+      "passed": true,
+      "answer": "Real GDP growth is forecast to be 7.7 percent in FY2025/26e and 6.6 percent in FY2026/27f for India, and 3.8 percent in FY2025/26e and 4.6 percent in FY2026/27f for Bangladesh [S1]. Annual GDP for both countries is on a fiscal-year basis [S1][S2][S5].",
+      "failures": [],
+      "metrics": {
+        "attempt": "1",
+        "evidenceStatus": "Sufficient",
+        "checks": "11/11 passed",
+        "checkDetails": "PASS Evidence status: got Sufficient, allowed Sufficient / Limited. 5 chunks passed the similarity threshold of 0.70 (best 0.796).\nPASS Has citations: 4 citation marker(s) in the answer, 3 cited source(s)\nPASS No sources from other regions: every region-specific source matches the question\nPASS Every asked region is cited: cited: South Asia\nPASS Numbers appear in cited text: all 6 figure(s) found in the cited sources\nPASS Does not say \u0022calendar-year basis\u0022: not present\nPASS Does not say \u0022calendar year basis\u0022: not present\nPASS Does not say \u0022calendar-year terms\u0022: not present\nPASS Does not say \u0022calendar year terms\u0022: not present\nPASS Does not say \u0022calendar-year figures\u0022: not present\nPASS Does not say \u0022calendar year figures\u0022: not present",
+        "citedSources": "S1: Chapter 2 \u203A South Asia \u203A TABLE 2.10 South Asia economy forecasts [Table, South Asia] p. 76\nS2: Statistical Appendix \u203A Real GDP growth \u203A Real GDP growth [StatisticalAppendix, South Asia] p. 167\nS5: Chapter 1 \u203A Summary \u203A TABLE 1.1 Real GDP [Table, South Asia] p. 4",
+        "totalMs": "2096",
+        "retrievalMs": "660",
+        "generationMs": "1435",
+        "promptTokens": "5410",
+        "outputTokens": "148"
+      }
+    },
+    {
+      "id": "extra-brazil-mexico-appendix-region",
+      "question": "What are the growth forecasts for Brazil and Mexico?",
+      "passed": true,
+      "answer": "Growth in Brazil is projected to be 2.3 percent in 2025e, 1.9 percent in 2026f, 2.0 percent in 2027f, and 2.2 percent in 2028f [S1][S2][S3][S5]. Growth in Mexico is projected to be 0.6 percent in 2025e, 1.3 percent in 2026f, 1.7 percent in 2027f, and 1.9 percent in 2028f [S2][S4].",
+      "failures": [],
+      "metrics": {
+        "attempt": "1",
+        "evidenceStatus": "Sufficient",
+        "checks": "5/5 passed",
+        "checkDetails": "PASS Evidence status: got Sufficient, allowed Sufficient / Limited. 5 chunks passed the similarity threshold of 0.70 (best 0.787).\nPASS Has citations: 6 citation marker(s) in the answer, 5 cited source(s)\nPASS No sources from other regions: every region-specific source matches the question\nPASS Every asked region is cited: cited: Latin America and the Caribbean\nPASS Numbers appear in cited text: all 10 figure(s) found in the cited sources",
+        "citedSources": "S1: Chapter 2 \u203A Latin America and the Caribbean \u203A Outlook [RegionalOutlook, Latin America and the Caribbean] p. 66\nS2: Chapter 1 \u203A Summary \u203A TABLE 1.1 Real GDP [Table, Latin America and the Caribbean] p. 4\nS3: Chapter 2 \u203A Latin America and the Caribbean \u203A TABLE 2.6 Latin America and the Caribbean economy forecasts [Table, Latin America and the Caribbean] p. 69\nS5: Statistical Appendix \u203A Real GDP growth \u203A Real GDP growth [StatisticalAppendix, Latin America and the Caribbean] p. 166\nS4: Chapter 2 \u203A Latin America and the Caribbean \u203A TABLE 2.6 Latin America and the Caribbean economy forecasts [Table, Latin America and the Caribbean] p. 69",
+        "totalMs": "2802",
+        "retrievalMs": "614",
+        "generationMs": "2187",
+        "promptTokens": "6344",
+        "outputTokens": "197"
+      }
+    }
+  ],
+  "summary": {
+    "generationModel": "gemini-3.5-flash-lite",
+    "embeddingModel": "gemini-embedding-2/768/TextPrefix",
+    "relevanceThreshold": "0.70",
+    "repeat": "1",
+    "caseRuns": "8",
+    "failed": "0",
+    "durationSeconds": "58.4"
+  }
+}
